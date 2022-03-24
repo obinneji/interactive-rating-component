@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid yellow; */
+}
+body {
+  font-family: 'Overpass';
+  font-size: 15px;
+  background: hsl(216, 12%, 8%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30%;
+  height: 60%;
+  border-radius: 20px;
+  background: hsl(213, 19%, 18%);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: hsl(217, 26%, 20%);
+  border-style: none;
+  border: 1px;
+  border-radius: 50%;
+  margin: 30px 40px;
+  display: grid;
+  place-content: center;
+}
+
+.rating-stats {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+.rating-stats p {
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.numbers button {
+  font-family: 'overpass';
+  font-weight: 700;
+  color: hsl(217, 12%, 63%);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  background: hsl(216, 12%, 20%);
+}
+.numbers button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+}
+
+#submit-btn {
+  width: 100%;
+  background: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 80px;
+  font-weight: 400;
+  border: none;
+  letter-spacing: 3px;
+}
+#submit-btn:hover {
+  cursor: pointer;
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-state {
+  display: none;
+  text-align: center;
+}
+.thank-you-state img {
+  margin: 40px;
+}
+.thank-you-state h1 {
+  margin: 20px 10px 10px 10px;
+}
+.thank-you-state p {
+  margin: 10px 50px;
+  line-height: 1.5;
+  color: hsl(217, 12%, 63%);
+}
+.thank-you-state button {
+  font-weight: 400;
+  background: hsl(217, 26%, 20%);
+  color: hsl(25, 97%, 53%);
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 80%;
+    height: 60%;
+  }
+}

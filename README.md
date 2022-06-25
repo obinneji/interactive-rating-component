@@ -52,7 +52,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/obinneji)
-- Twitter - [@yourusername](https://www.twitter.com/francisobinneji)
+- Frontend Mentor - [obinneji](https://www.frontendmentor.io/profile/obinneji)
+- Twitter - [Obinneji Francis](https://www.twitter.com/francisobinneji)
 
 
